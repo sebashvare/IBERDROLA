@@ -16,7 +16,7 @@ El candidato demuestra una adecuada lógica de programación (6 pts)
 """
 
 
-def ordanamiento_arreglo(arreglo):
+def insertion_sort(arreglo):
     longitud = len(arreglo)
     for i in range(longitud):
         for actual in range(longitud - 1):
@@ -37,7 +37,7 @@ def run():
     =========================================================
     """
     )
-    data_resultado = ordanamiento_arreglo(prueba_data)
+    data_resultado = insertion_sort(prueba_data)
     print(
     f"""
     =========================================================
