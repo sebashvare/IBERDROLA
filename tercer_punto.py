@@ -140,7 +140,7 @@ def modelo_arboles_decision():
     varianza = r2_score(Y_TEST, prediccion)
     print(
         f"""
-    Modelo: Regresion Lineal
+    Modelo: Arbol de decision
     Desviacion Estandar = {desv_stand}
     % Varianza = {varianza}
     """
